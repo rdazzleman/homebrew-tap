@@ -3,8 +3,8 @@ class Policyforge < Formula
 
   desc "Generate cross-mapped security policies from NIST 800-53, FedRAMP and HIPAA"
   homepage "https://github.com/rdazzleman/policyforge"
-  url "https://github.com/rdazzleman/policyforge/archive/refs/tags/v1.6.1.tar.gz"
-  sha256 "16e333edcfe19e05787c2d118918c22590fd1740762d420a8df5bb067c7ed844"
+  url "https://github.com/rdazzleman/policyforge/archive/refs/tags/v1.7.0.tar.gz"
+  sha256 "769c2837e9857ca79003d8ac9c3512932176ef5705005d16c9a5a64ba0789a57"
   license "Apache-2.0"
 
   depends_on "rust" => :build
@@ -18,8 +18,8 @@ class Policyforge < Formula
   end
 
   resource "anthropic" do
-    url "https://files.pythonhosted.org/packages/a6/3d/4170318539de0c163e1806509b0bb9cd7d611ee15e7885f1d16a11a37d29/anthropic-1.6.0.tar.gz"
-    sha256 "ce3c032f940984f67c516db896375bff36959f8dc589973e386f8e6ea81bbec3"
+    url "https://files.pythonhosted.org/packages/a4/8b/4210dd090000ba35d07cee9105530794911d955788c3992b4882df49eaac/anthropic-1.7.0.tar.gz"
+    sha256 "0ab1b04668606ba1ae93f6d9e8dcc2e0c4f0debebd4eea4773a3a595f0836db1"
   end
 
   resource "anyio" do
@@ -183,8 +183,8 @@ class Policyforge < Formula
   end
 
   resource "wcwidth" do
-    url "https://files.pythonhosted.org/packages/36/57/ed58088fafdf4c55a0ad6bde846502567645424d7ebf325230b9237f4085/wcwidth-0.8.3.tar.gz"
-    sha256 "d128512515fbf4612e0ff21fd6380399210318b7b54a9af59dff8454cf9730eb"
+    url "https://files.pythonhosted.org/packages/3d/7a/f98d4ada7c499565ab0c0fcef28a4e54fafa72b8228a6309803c80493c92/wcwidth-0.8.4.tar.gz"
+    sha256 "2dae09efa25253ae2874188e86d6861af3b1652aef4118cdf3f0bda288a957fb"
   end
 
   def install
